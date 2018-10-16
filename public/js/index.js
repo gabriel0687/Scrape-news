@@ -60,7 +60,7 @@ $(document).ready(function () {
             $(document).find(".modal ").modal('toggle');
         });
     })
-/////////////////////////////////////////////////////////////////////////////////////////////////
+
     $(document).on('click', '.fa-trash-alt', function (event) {
         var $btn = $(this);
         var id = $(this).attr("data_id");
@@ -185,5 +185,3 @@ function handleClrArticles() {
 // Add event listeners to the submit and delete buttons
 $newArticles.on("click", handleNewArticles);
 $clearArticles.on("click", handleClrArticles);
-
-//-----------------------------------------------------------------------------------------------------------
